@@ -1,0 +1,113 @@
+.cardbody{
+    border: 6px solid black ;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    width: 26%;
+    border-radius: 5%;
+}
+s{
+    color: red;
+}
+h3{
+    color: blue;
+}
+button{
+    padding: 2%;
+    background-color: green;
+    color: white;
+    border: 4px solid black;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cardbody img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*upto now laptop*/
+/*now mobile*/
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody{
+        border: 6px solid black ;
+        padding: 1%;
+        margin: 1%;
+        font-size: 30px;
+        width: 90%;
+        border-radius: 5%;
+    }
+    s{
+        color: red;
+    }
+    h3{
+        color: blue;
+    }
+    button{
+        padding: 2%;
+        background-color: green;
+        color: white;
+        border: 4px solid black;
+        font-size: 20px;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+    
+
+
+@media only screen and (min-width:481p) and (max-width:768){
+    .cardbody{
+        border: 6px solid black ;
+        padding: 1%;
+        margin: 1%;
+        font-size: 10px;
+        width: 90%;
+        border-radius: 5%;
+    }
+    .cardbody{
+        display: flex;
+    }
+    s{
+        color: red;
+    }
+    h3{
+        color: blue;
+    }
+    button{
+        padding: 2%;
+        background-color: green;
+        color: white;
+        border: 4px solid black;
+        font-size: 10px;
+    }
+    .cardbody{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .cardbody img{
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+
+
