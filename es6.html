@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //function addition(x,y){
+           // return x+y
+       // }
+
+       // Anonymous function
+
+       //let addition=function(x,y){
+           //return x+y
+       //}
+
+       //Arrow function
+
+       //let addition = (x,y) => {
+                    //return x+y
+      // }
+
+      //  document.writeln(addition(3,4))
+
+      let employee={
+          name:"Gayathri",
+          age:18
+      }
+      //let name=employee.name;
+      let {name,age}=employee
+      console.log(name);
+      console.log(age);
+
+      //Destructuring of Array
+      let employees=["Sravani","Likhi","Gayathri"]
+      //let emp1=employees[0]
+      //let [emp1,emp2,emp3]=employees
+      //console.log(emp2)
+
+      // Spread Operator
+
+    let [emp1,...remainList]=employees
+    console.log(emp1)
+    console.log(remainList)
+
+    //Rest Parameter
+    function addition(x,y,...data){
+        console.log(x+y)
+        console.log(data)
+    }
+    console.log(addition(3,4,6,4,3,76,567))
+    </script>
+</body>
+</html>
